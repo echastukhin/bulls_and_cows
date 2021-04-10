@@ -49,10 +49,10 @@ function printInitialMessage() {
 }
 
 function isUserValueCorrect(value, maxValue) {
-  const msgNumberIsLess    = '\n[WARN] Ваше число меньше чем загадоное компьютером - будте внимательны\n';
-  const msgNumberIsGreater = '\n[WARN] Ваше число больше чем загадоное компьютером - будте внимательны\n'
-  const msgNotANumber      = '\n[WARN] Вы ввели не число - будте внимательны\n'
-  const msgEmpty           = '\n[WARN] Ввод пуст - будте внимательны\n'
+  const msgNumberIsLess    = '\n[WARN] Ваше число меньше чем загадоное компьютером - будьте внимательны\n';
+  const msgNumberIsGreater = '\n[WARN] Ваше число больше чем загадоное компьютером - будьте внимательны\n'
+  const msgNotANumber      = '\n[WARN] Вы ввели не число - будьте внимательны\n'
+  const msgEmpty           = '\n[WARN] Ввод пуст - будьте внимательны\n'
 
   let msg = '';
   let returnValue = false;
